@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { API_BASE_URL } from "../configue";
+import { API_BASE_URL } from "../configue.js";
 import "./JobPost.css";
 
 const JobPost = () => {

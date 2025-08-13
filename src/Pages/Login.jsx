@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { API_BASE_URL } from "../configue.js";
-import "./Login.css";
+import "./login.css";
 
 const Login = () => {
   const [formData, setFormData] = useState({ email: "",name: "", password: "" });

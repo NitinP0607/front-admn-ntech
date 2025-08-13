@@ -2,7 +2,7 @@
 import React from "react";
 import { useNavigate, Link } from "react-router-dom";
 import { useEffect, useState } from "react";
-import "./Universalpage.css";
+import "./universalpage.css";
 
 
 const Dashboard = () => {
