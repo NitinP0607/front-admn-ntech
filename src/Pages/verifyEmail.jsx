@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { API_BASE_URL } from "../configue";
-import "./universalpage.css";
+import "./Universalpage.css";
 
 const VerifyEmail = () => {
   const [otp, setOtp] = useState("");
