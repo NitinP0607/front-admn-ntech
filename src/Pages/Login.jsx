@@ -1,7 +1,7 @@
 // src/pages/Login.jsx
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { API_BASE_URL } from "../configue";
+import { API_BASE_URL } from "../configue.js";
 import "./Login.css";
 
 const Login = () => {
