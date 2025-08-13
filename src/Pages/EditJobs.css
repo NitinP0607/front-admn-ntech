@@ -1,0 +1,49 @@
+.edit-job-container {
+  max-width: 700px;
+  margin: 30px auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
+
+.edit-job-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.edit-job-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.edit-job-form input,
+.edit-job-form textarea,
+.edit-job-form select {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.edit-job-form textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+.edit-job-form button {
+  padding: 10px;
+  background: #007bff;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.edit-job-form p {
+  color: green;
+  margin-top: 10px;
+  text-align: center;
+}
